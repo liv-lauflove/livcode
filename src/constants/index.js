@@ -2,15 +2,15 @@ export const myProjects = [
 
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Brand Profile",
     description:
-      "An e-commerce platform that connects small retailers with suppliers, making it easy to purchase essential goods at affordable prices.",
+      "An e-commerce platform for premium handcrafted furniture, designed to provide a seamless shopping experience for high-quality, sustainably sourced home decor.",
     subDescription: [
-      "BetaZeta is a user-friendly e-commerce platform built with HTML, JavaScript, and CSS, designed to connect small retailers with suppliers of essential goods. It features an intuitive UI/UX, a responsive layout, and a streamlined “Buy Now” function that instantly connects buyers to sellers via WhatsApp, complete with seller location details and comprehensive product listings.",
+      "Havenwood is a sophisticated e-commerce platform built with HTML, JavaScript, and CSS, focused on delivering 'Furniture Designed for a Calmer Life.' It features a minimalist and intuitive UI/UX, a fully responsive layout across all devices, and a curated product showcase. The platform is engineered with smooth navigation for exploring collections, detailed product descriptions, and a direct 'Explore Collections' call-to-action to bridge the gap between craftsmanship and modern digital retail.",
     ],
-    href: "https://betazeta.carrd.co/",
+    href: "https://liv-lauflove.github.io/furniture_lp/",
     logo: "",
-    image: "assets/project/betazeta.png",
+    image: "assets/project/furniture.png",
     tags: [
       {
         id: 1,
@@ -67,7 +67,7 @@ export const myProjects = [
     id: 3,
     title: "Portfolio Website",
     description:
-      "A personal portfolio website showcasing my projects, skills, and experience.",
+      "A personal portfolio website showcasing projects, skills, and experience.",
     subDescription: [
       "This portfolio website is built with React and Tailwind CSS, featuring a clean and modern design. It includes sections for my projects, skills, and a contact form, all optimized for performance and accessibility.",
     ],
@@ -200,19 +200,19 @@ export const myProjects = [
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "https://wa.me/628816223146",
+    href: "https://wa.me/6282339393859",
     icon: "assets/socials/whatsApp.svg",
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/codeblock-id-993366382/",
+    href: "https://www.linkedin.com/in/olyviaaudy/",
     icon: "assets/socials/linkedIn.svg",
   },
-  {
-    name: "Instagram",
-    href: "https://www.instagram.com/codeblock.id/",
-    icon: "assets/socials/instagram.svg",
-  },
+  // {
+  //   name: "Instagram",
+  //   href: "https://www.instagram.com/codeblock.id/",
+  //   icon: "assets/socials/instagram.svg",
+  // },
 ];
 
 

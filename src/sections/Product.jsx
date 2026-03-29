@@ -13,7 +13,7 @@ const Product = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          Products
+          Projects
         </motion.h2>
 
         <motion.div 

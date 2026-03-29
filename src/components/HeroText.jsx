@@ -16,7 +16,7 @@ const HeroText = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1}}
         >
-          Creative Web <br /> Solution
+          Elevate Your <br /> Digital Impact
         </motion.h1>
 
         <motion.p className='font-normal
@@ -30,11 +30,9 @@ const HeroText = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1 }}
         >
-            codeblock is a digital product agency that helps individuals and
-            businesses <br /> establish a professional presence online. From websites,
-            landing pages, to <br /> interactive portfolios, we design and develop
-            digital solutions that are effective, <br /> modern, and tailored to your
-            needs.
+            At LivCode, we don't just build websites; we engineer high-converting digital experiences. <br />
+            Whether you need a sleek landing page, a robust web application, or a <br />standout portfolio, we craft modern, 
+            results-driven solutions tailored to scale your <br />professional presence and captivate your audience.
         </motion.p>
       </div>
     </div>

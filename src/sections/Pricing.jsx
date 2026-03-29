@@ -60,17 +60,24 @@ const Pricing = () => {
                 viewport={{ once: true, amount: 0.2 }}
                 >
                     {/* Title */}
-                    <h3 className="text-white text-[16px] font-light mb-4">Basic</h3>
+                    <h3 className="text-white text-lg sm:text-xl font-semibold">
+                    Standard
+                    </h3>
+
+                    {/* sub-title*/}
+                    <p className="text-gray-500 text-[11px] uppercase tracking-wider mb-2">
+                    Start from
+                    </p>
 
                     {/* Price */}
                     <p className="text-white text-3xl sm:text-4xl font-extrabold mb-6">
-                        Rp1.500.000
+                    Rp3.000.000
                     </p>
 
                     {/* Button */}
                     <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full w-full mb-6">
                         <a 
-                        href="https://wa.me/628816223146"
+                        href="https://wa.me/6282339393859"
                         className="flex items-center justify-center gap-2 "
                         >
                         <img 
@@ -101,11 +108,7 @@ const Pricing = () => {
                         </li>
                         <li className="flex items-center gap-2">
                             <img src="assets/cek.svg" alt="check" className="w-7 h-7" />
-                            Responsive to All Devices
-                        </li>
-                        <li className="flex items-center gap-2">
-                            <img src="assets/cek.svg" alt="check" className="w-7 h-7" />
-                            1 Year Maintenance
+                            Responsive on All Devices
                         </li>
                         <li className="flex items-center gap-2">
                             <img src="assets/cek.svg" alt="check" className="w-7 h-7" />
@@ -128,18 +131,25 @@ const Pricing = () => {
                 transition={{ duration: 0.5 }}
                 viewport={{ once: true, amount: 0.2 }}
                 >
-                    {/* Title */}
-                    <h3 className="text-white text-[16px] font-light mb-4">Standard</h3>
+                    {/* title*/}
+                    <h3 className="text-white text-lg sm:text-xl font-semibold">
+                    Premium
+                    </h3>
+
+                    {/* sub-title*/}
+                    <p className="text-gray-500 text-[11px] uppercase tracking-wider mb-2">
+                    Start from
+                    </p>
 
                     {/* Price */}
                     <p className="text-white text-3xl sm:text-4xl font-extrabold mb-6">
-                        Rp3.000.000
+                        Rp6.000.000
                     </p>
 
                     {/* Button */}
                     <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full w-full mb-6">
                         <a 
-                        href="https://wa.me/628816223146"
+                        href="https://wa.me/6282339393859"
                         className="flex items-center justify-center gap-2"
                         >
                         <img 
@@ -158,11 +168,15 @@ const Pricing = () => {
                     <ul className="space-y-6 text-white text-[14px] sm:text-[18px] lg:text-[20px] text-left">
                         <li className="flex items-center gap-2">
                             <img src="assets/cek.svg" alt="check" className="w-7 h-7" />
-                            Startup Website
+                            Multi-Page Business Website
                         </li>
                         <li className="flex items-center gap-2">
                             <img src="assets/cek.svg" alt="check" className="w-7 h-7" />
-                            3 - 6 Pages
+                            Product / Service Showcase
+                        </li>
+                        <li className="flex items-center gap-2">
+                            <img src="assets/cek.svg" alt="check" className="w-7 h-7" />
+                            Menu Integration
                         </li>
                         <li className="flex items-center gap-2">
                             <img src="assets/cek.svg" alt="check" className="w-7 h-7" />
@@ -174,11 +188,7 @@ const Pricing = () => {
                         </li>
                         <li className="flex items-center gap-2">
                             <img src="assets/cek.svg" alt="check" className="w-7 h-7" />
-                            Responsive to All Devices
-                        </li>
-                        <li className="flex items-center gap-2">
-                            <img src="assets/cek.svg" alt="check" className="w-7 h-7" />
-                            1 Year Maintenance
+                            Responsive on All Devices
                         </li>
                         <li className="flex items-center gap-2">
                             <img src="assets/cek.svg" alt="check" className="w-7 h-7" />
@@ -201,18 +211,25 @@ const Pricing = () => {
                 transition={{ duration: 0.5 }}
                 viewport={{ once: true, amount: 0.2 }}
                 >
-                    {/* Title */}
-                    <h3 className="text-white text-[16px] font-light mb-4">Premium</h3>
+                    {/* title*/}
+                    <h3 className="text-white text-lg sm:text-xl font-semibold">
+                    Business System
+                    </h3>
+
+                    {/* sub-title*/}
+                    <p className="text-gray-500 text-[11px] uppercase tracking-wider mb-2">
+                    Start from
+                    </p>
 
                     {/* Price */}
                     <p className="text-white text-3xl sm:text-4xl font-extrabold mb-6">
-                        Rp8.000.000
+                        Rp10.000.000
                     </p>
 
                     {/* Button */}
                     <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-full w-full mb-6">
                         <a 
-                        href="https://wa.me/628816223146"
+                        href="https://wa.me/6282339393859"
                         className="flex items-center justify-center gap-2"
                         >
                         <img 
@@ -232,27 +249,27 @@ const Pricing = () => {
                     <ul className="space-y-6 text-white text-[14px] sm:text-[18px] lg:text-[20px] text-left">
                         <li className="flex items-center gap-2">
                             <img src="assets/cek.svg" alt="check" className="w-7 h-7" />
-                            Costum Pages
+                            Admin Dashboard
                         </li>
                         <li className="flex items-center gap-2">
                             <img src="assets/cek.svg" alt="check" className="w-7 h-7" />
-                            Custom Design
+                            Inventory / Stock Management
                         </li>
                         <li className="flex items-center gap-2">
                             <img src="assets/cek.svg" alt="check" className="w-7 h-7" />
-                            Full Animation
+                            Data Management System
                         </li>
                         <li className="flex items-center gap-2">
                             <img src="assets/cek.svg" alt="check" className="w-7 h-7" />
-                            Responsive to All Devices
+                            Sales / Finance Tracking
                         </li>
                         <li className="flex items-center gap-2">
                             <img src="assets/cek.svg" alt="check" className="w-7 h-7" />
-                            1 Year Maintenance
+                            Custom Workflow Based on Business Needs
                         </li>
                         <li className="flex items-center gap-2">
                             <img src="assets/cek.svg" alt="check" className="w-7 h-7" />
-                            Aditional Features by Request
+                            Responsive Web Interface
                         </li>
                         <li className="flex items-center gap-2">
                             <img src="assets/cek.svg" alt="check" className="w-7 h-7" />
@@ -263,15 +280,15 @@ const Pricing = () => {
             </div>
             <motion.div className="w-90 sm:w-full lg:w-full flex flex-col sm:flex-row items-center justify-between gap-4 border border-neutral-700 bg-[#0F0F11] rounded-xl lg:rounded-full px-6 py-4 mt-8 transition-transform duration-200 ease-in-out transform hover:scale-105">
                 {/* Text */}
-                <p className="text-white font-light text-center sm:text-left text-[13px] lg:text-[18px]">
-                    Have a website idea that doesn't fit within our existing packages?
-                    <span className="font-bold"> Don't worry, we're here to help!</span>
+                <p className="text-white text-center sm:text-left text-[13px] lg:text-[18px] font-bold">
+                    Not every project fits into a package.
+                    <span className="font-medium"> If you need something more tailored, we're here to build it with you</span>
                 </p>
 
                 {/* Button */}
                 <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-full w-80 lg:w-90">
                     <a 
-                    href="https://wa.me/628816223146"
+                    href="https://wa.me/6282339393859"
                     className="flex items-center justify-center gap-2"
                     >
                         <img 

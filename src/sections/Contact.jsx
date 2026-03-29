@@ -32,16 +32,16 @@ const Contact = () => {
     try {
       console.log("From submitted:", formData);
       await emailjs.send(
-        "service_vwjmxyp",
-        "template_sx8h31f",
+        "service_znc3w1e",
+        "template_rrk33sq",
         {
           from_name: formData.name,
-          to_name: "codeblock",
+          to_name: "olyvia",
           from_email: formData.email,
-          to_email: "codeblock.id@gmail.com",
+          to_email: "olyviaaudydj@gmail.com",
           message: formData.message,
         },
-        "GCzbR8W7O73X5CGc5"
+        "YbbN1Z2A7vy3xoJ0d"
       );
       setIsLoading(false);
       setFormData({ name: "", email: "", message: "" });
@@ -49,7 +49,7 @@ const Contact = () => {
     } catch (error) {
       setIsLoading(false);
       console.log(error);
-      showAlertMessage("danger", "Somthing went wrong!");
+      showAlertMessage("Failed", "Something went wrong!");
     }
   };
   return (
@@ -79,7 +79,7 @@ const Contact = () => {
         >
           <h2 className="text-3xl md:text-4xl font-bold">Contact Us</h2>
           <p className="font-normal text-neutral-400">
-            Whether you're looking to build a new website, improve your existing platform, or just want to say hello, feel free to reach out.
+            Whether you need a new website, a better digital experience, or just want to discuss an idea, feel free to get in touch.
           </p>
         </motion.div>
 
