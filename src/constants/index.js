@@ -31,35 +31,35 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Decentralized Medical Data Access Platform",
+    title: "Finance Tracker",
     description:
-      "A blockchain-powered platform that gives patients full ownership and control of their medical records for secure, seamless sharing across healthcare providers.",
+      "A smart finance tracking platform that helps users take full control of their income, expenses, and budgeting in one simple and organized system.",
     subDescription: [
-      "Medical Chain ID is a blockchain-based platform developed with Motoko, React, Tailwind CSS, and Vite, enabling patients to securely own and manage their medical records. It offers advanced encryption, passwordless authentication, and granular access controls, allowing seamless and secure sharing of health data across different healthcare institutions.",
+      "Moneyfy is a finance tracking platform developed with Laravel, Tailwind CSS, and Vite, designed to help users manage their personal finances more efficiently. It allows users to record income and expenses, monitor spending patterns, set budgets, and view financial summaries through a clean and user-friendly interface.",
     ],
-    href: "https://medicalchainid.com/",
+    href: "https://moneyfyprojectt-production-a9bf.up.railway.app/",
     logo: "",
-    image: "assets/project/medicalchain.png",
+    image: "assets/project/financetracker.png",
     tags: [
+      // {
+      //   id: 1,
+      //   name: "React",
+      //   path: "assets/logos/react.svg",
+      // },
       {
         id: 1,
-        name: "React",
-        path: "assets/logos/react.svg",
-      },
-      {
-        id: 2,
         name: "TailwindCSS",
         path: "assets/logos/tailwindcss.svg",
       },
       {
-        id: 3,
+        id: 2,
         name: "Vite",
         path: "assets/logos/vitejs.svg",
       },
       {
-        id: 4,
-        name: "Motoko",
-        path: "assets/logos/motoku.png",
+        id: 3,
+        name: "Laravel",
+        path: "assets/logos/laravel.svg",
       },
     ],
   },
